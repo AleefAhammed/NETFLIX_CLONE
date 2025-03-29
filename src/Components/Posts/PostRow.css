@@ -1,0 +1,44 @@
+.row{
+
+    margin-left: 20px;
+    color: white;
+}
+
+.genre_name{
+
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.movie_poster{
+
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.movie_poster::-webkit-scrollbar{
+    
+    display: none;
+}
+
+.poster{
+    cursor: pointer;
+    max-height: 200px;
+    margin-right: 15px;
+}
+.smallPoster{
+    cursor: pointer;
+    max-height: 150px;
+    margin-right: 15px;
+}
+
+.poster:hover{
+
+    transform: scale(1.05);
+}
+
+.smallPoster:hover{
+
+    transform: scale(1.1) ;
+}
