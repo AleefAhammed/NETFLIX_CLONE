@@ -22,4 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# 🚀 Environment Variables (Sensitive Data)
 .env
+.env.local
+.env.*.local
